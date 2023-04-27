@@ -1,0 +1,42 @@
+body{
+    background-color:#e7e4e4
+}
+h1{
+    color: #ff6a28;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: #ff6a28;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+a{
+    
+}
+p{
+    color: #595959;
+    font-family: sans-serif;
+}
+table th, td{
+    border-collapse: separate;
+    padding: 5px;
+    text-align: center;
+    height: 50px;
+    background-color: #e7e4e4;
+}
+#bolinhaChurros{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 390px;
+    }
+#ingredientes{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 590px;
+}
+#preparo{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 670px;
+
+}
