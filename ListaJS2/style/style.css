@@ -1,0 +1,81 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #d4ffba;
+}
+
+.intro{
+    font-family: 'Raleway', sans-serif;
+    margin: 5%;
+    text-align: center;
+}
+
+
+.navbar{
+
+    text-align: center;
+    margin: 2%;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.navbar a{
+    background-color: #409b32;
+    text-decoration: none;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 30px;
+    color: white;
+    font-size: 19px;
+}
+
+.navbar a:hover{
+    background-color: #4db33e;
+}
+
+
+.container{
+    
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; 
+    flex-direction: column;
+}
+
+.exercicio{
+    display: none;
+}
+
+fieldset{
+    background-color: #7dd569;
+    border-radius: 60px;
+    border: 3px solid #dbffc5;
+    width: 310px;
+    height: 270px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+legend {
+    background-color: #409b32;
+    border: 3px solid #dbffc5;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+input{
+    text-align: center;
+    width: 300px;
+    border-radius: 10px ;
+    border: 1px solid lightgreen;
+}
+button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+}

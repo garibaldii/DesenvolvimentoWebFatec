@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exercícios JS</title>
+    <script src="script/script.js" defer></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    
+    <div class="intro">
+        <h1>Olá Professora Angelina,<br> espero que tenha melhorado da sua cirurgia!</h1>
+        <h1>Aqui está a lista de exercícios de JS!</h1>
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <a href="javascript:void(0);" onclick="mostrarEx('ex1')">Exercicio 1</a>
+            <a href="javascript:void(0);" onclick="mostrarEx('ex2')">Exercicio 2</a>
+            <a href="javascript:void(0);" onclick="mostrarEx('ex3')">Exercicio 3</a>
+            <a href="javascript:void(0);" onclick="mostrarEx('ex4')">Exercicio 4</a>
+            <a href="javascript:void(0);" onclick="mostrarEx('ex5')">Exercicio 5</a>
+            <a href="javascript:void(0);" onclick="mostrarEx('ex6')">Exercicio 6</a>
+            <a href="javascript:void(0);" onclick="mostrarEx('ex7')">Exercicio 7</a>
+            <a href="javascript:void(0);" onclick="mostrarEx('ex8')">Exercicio 8</a>
+        </nav>
+    </div>
+
+    <div class="container">
+
+        <div id="ex1" class="exercicio">
+            <fieldset>
+                <legend>Exercício 1</legend>
+                <br><br>
+                <label for="numero1">Digite o 1º número: </label>
+                <input id="n1" type="number" name="n1">
+
+                <br><br>
+
+                <label for="numero2">Digite o 2º número: </label>
+                <input id="n2" type="number" name="n2">
+
+                <br><br>
+
+                <button onclick="exercicio1()">RESULTADO</button>
+                <br><br>
+                <label id="r1"></label>
+
+
+            </fieldset>
+        </div>
+
+        <div id="ex2" class="exercicio">
+            <fieldset>
+                <legend>Exercício 2</legend>
+                <br><br><br><br>
+                <button onclick="exercicio2()">RESULTADO</button>
+            </fieldset>
+        </div>
+
+        <div id="ex3" class="exercicio">
+            <fieldset>
+                <legend>Exercício 3</legend>
+                <br><br><br><br>
+                <input type="text" id="inputArray" placeholder="Digite os valores do array separados por vírgula">
+                <br><br>
+                <button onclick="exercicio3()">RESULTADO</button>
+                <br><br>
+                <label id="r3" for="minimo"></label>
+            </fieldset>
+        </div>
+
+        <div id="ex4" class="exercicio">
+            <fieldset>
+                <legend>Exercício 4</legend>
+                <br><br><br><br>
+                <button onclick="exercicio4()">RESULTADO</button>
+            </fieldset>
+        </div>
+
+        <div id="ex5" class="exercicio">
+            <fieldset>
+                <legend>Exercício 5</legend>
+                <br><br><br><br>
+                <button onclick="exercicio5()">RESULTADO</button>
+                <br><br>
+                <label for="resultado" id="r5"></label>
+            </fieldset>
+        </div>
+
+        <div id="ex6" class="exercicio">
+            <fieldset>
+                <legend>Exercicio 6</legend>
+                <br><br><br><br>
+                <button onclick="exibir()">EXIBIR</button>
+            </fieldset>
+        </div>
+
+        <div id="ex7" class="exercicio">
+            <fieldset>
+                <legend>Exercicio 7</legend>
+                <br><br><br><br>
+                <button onclick="exercicio7()">NOVO OBJETO</button>
+                <label for="exercicio7" id="r7"></label>
+            </fieldset>
+        </div>
+
+        <div id="ex8" class="exercicio">
+            <fieldset>
+                <legend>Exercicio 8 </legend>
+                <br><br><br><br>
+                <button onclick="exercicio8()">RESULTADO</button>
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+</html>
